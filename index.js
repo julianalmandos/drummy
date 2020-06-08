@@ -18,7 +18,6 @@ function playSound(e) {
     audioElement.currentTime = 0;
     audioElement.play();
     makeAnimation(document.querySelector(`.key[data-key="${e.keyCode}"]`));
-    console.log('ejecuta');
 }
 
 function makeAnimation(keyElement) {
