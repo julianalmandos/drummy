@@ -1,0 +1,74 @@
+[
+    {
+        "name": "clap",
+        "key": {
+            "name": "A",
+            "code": 65
+        },
+        "file": "sounds/clap.wav"
+    },
+    {
+        "name": "hihat",
+        "key": {
+            "name": "S",
+            "code": 83
+        },
+        "file": "sounds/hihat.wav"
+    },
+    {
+        "name": "kick",
+        "key": {
+            "name": "D",
+            "code": 68
+        },
+        "file": "sounds/kick.wav"
+    },
+    {
+        "name": "openhat",
+        "key": {
+            "name": "F",
+            "code": 70
+        },
+        "file": "sounds/openhat.wav"
+    },
+    {
+        "name": "boom",
+        "key": {
+            "name": "G",
+            "code": 71
+        },
+        "file": "sounds/boom.wav"
+    },
+    {
+        "name": "ride",
+        "key": {
+            "name": "H",
+            "code": 72
+        },
+        "file": "sounds/ride.wav"
+    },
+    {
+        "name": "snare",
+        "key": {
+            "name": "J",
+            "code": 74
+        },
+        "file": "sounds/snare.wav"
+    },
+    {
+        "name": "tom",
+        "key": {
+            "name": "K",
+            "code": 75
+        },
+        "file": "sounds/tom.wav"
+    },
+    {
+        "name": "tink",
+        "key": {
+            "name": "L",
+            "code": 76
+        },
+        "file": "sounds/tink.wav"
+    }
+]

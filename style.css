@@ -1,0 +1,148 @@
+html {
+  font-size: 10px;
+  background: linear-gradient(135deg, rgba(22,162,123,1) 12%, rgba(0,212,255,1) 100%);
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.keys-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.key {
+  border-radius: .8rem;
+  margin: 3rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 30rem;
+  text-align: center;
+  color: #000;
+  background: rgba(255,255,255, 0.5);
+  -webkit-box-shadow: 5px 5px 0px 2px rgba(255,255,255,0.3);
+  -moz-box-shadow: 5px 5px 0px 2px rgba(255,255,255,0.3);
+  box-shadow: 5px 5px 0px 2px rgba(255,255,255,0.3);
+}
+
+.playing {
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
+
+kbd {
+  display: block;
+  font-size: 8rem;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px black;
+  background: -webkit-linear-gradient(135deg, rgba(22,162,123,1) 12%, rgba(0,212,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sound {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #000;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+footer > a {
+  text-decoration: none;
+  color: black;
+}
+
+footer > a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.metronome__menu__button {
+  font-size: 15px;
+  border-radius: .8rem;
+  background-color: rgba(255,255,255,0.5);
+  -webkit-box-shadow: 2px 2px 0px 2px rgba(255,255,255,0.3);
+  -moz-box-shadow: 2px 2px 0px 2px rgba(255,255,255,0.3);
+  box-shadow: 2px 2px 0px 2px rgba(255,255,255,0.3);
+  padding: 5px 20px;
+}
+
+.metronome__menu__button:hover, .active {
+  background-color: rgba(255,255,255,0.6);
+}
+
+.metronome__menu {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.metronome__menu__form {
+  margin-top: 10px;
+  border-radius: .8rem;
+  height: 70px;
+  padding: 0 40px;
+  background: rgba(255,255,255, 0.3);
+  -webkit-box-shadow: 2px 2px 0px 2px rgba(255,255,255,0.1);
+  -moz-box-shadow: 2px 2px 0px 2px rgba(255,255,255,0.1);
+  box-shadow: 2px 2px 0px 2px rgba(255,255,255,0.1);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.metronome__menu__form__button {
+  border: 1px solid black;
+  background: linear-gradient(135deg, rgba(22,162,123,0.3) 12%, rgba(0,212,255,0.3) 100%);
+  padding: 15px 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.metronome__menu__form__button:hover, .metronome__menu__form__button--active {
+  background: rgba(255,255,255, 0.5);
+}
+
+.metronome__menu__form__bpm {
+  height: 50px;
+  padding: 0 15px;
+  width: 60px;
+  border-radius: .8rem;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: end;
+}
