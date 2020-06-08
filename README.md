@@ -1,5 +1,7 @@
 # Drummy
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e9b24b5b-2255-47ac-a1cf-df36949d1c3f/deploy-status)](https://app.netlify.com/sites/drummy/deploys)
+
 Drummy is a web application that lets you play the drums with your keyboard.
 
 ## Information
