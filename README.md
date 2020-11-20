@@ -18,4 +18,6 @@ Version 1.0 comes with:
 
 ## Preview
 
+The app is now live on Netlify: [Drummy](https://drummy.netlify.app/)
+
 ![](https://imgur.com/3HwZZYN.png)
